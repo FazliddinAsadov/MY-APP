@@ -1,0 +1,107 @@
+.column {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+}
+.row-left {
+  width: 50%;
+  float: left;
+  margin-top: 5%;
+}
+
+.row-left h1 {
+  font-size: 40px;
+}
+.row-left .flex {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 30px 0;
+  position: relative;
+}
+.flex a{
+    color: #000;
+    font-weight: 700;
+    font-size: 14px;
+   
+  
+}
+.flex a::before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 32%;
+  width: 150px;
+  height: 2px;
+  background-color: #6f2cff;
+  margin-top: 10px;
+}
+.flex a::after {
+  content: ">";
+  position: absolute;
+  top: 20px;
+  left: 58%;
+  color: #000;
+  margin-top: 10px;
+}
+.row-left :nth-child(4){
+    font-size: 14px;
+    padding: 10px 0;
+
+}
+.row-left :nth-child(5){
+    font-size: 14px;
+    padding: 10px 0;
+
+}
+
+.row-right {
+  width: 50%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 80px ;
+  
+}
+
+
+.commerceAi{
+    width: 100%;
+    height: auto;
+    margin-top: 500px;
+
+}
+.commerceAi h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 0;
+}
+.commerceAi p{
+  text-align: center;
+  font-size: 18px;
+  padding: 30px 0;
+
+}
+.commerceAi .flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+.commerceAi .item{
+  width:300px;
+  text-align: center;
+
+}
+.commerceAi .item img{
+  margin-top: 30px;
+}
+.commerceAi .item h2{
+  text-align: center ;
+  font-size: 19px;
+  margin-top: 20px;
+}
+.commerceAi .item p{
+  font-size: 15px;
+}

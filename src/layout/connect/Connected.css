@@ -1,0 +1,56 @@
+.connected {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  background-color: #f5f5f5;
+}
+.connected .container{
+    width: 90%;
+    margin:  0  auto;
+
+}
+.connected .container .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+  margin-top: 150px;
+}
+.connected .box .box-left{
+    width: 650px;
+    float: left;
+}
+
+.connected .info {
+    width: 90%;
+    margin: 0 auto;
+}
+.connected .info h1 {
+  font-size: 40px;
+  padding: 40px 0 ;
+}
+.connected .info p {
+  font-size: 13px;
+  padding: 20px 0;
+}
+.connected .info button{
+    width: 250px;
+    margin-top: 30px;
+}
+.connected .info button:hover{
+    color: #6f2cff;
+    background-color: #fff;
+    border: 1px solid #6f2cff;
+}
+
+.connected .box .box-right {
+  width: 500px;
+  float: right;
+}
+.connected .box .box-right img{
+    width: 500px;
+  margin-top: 50px;
+
+}
