@@ -19,12 +19,10 @@
   padding: 30px 0;
   position: relative;
 }
-.flex a{
-    color: #000;
-    font-weight: 700;
-    font-size: 14px;
-   
-  
+.flex a {
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
 }
 .flex a::before {
   content: "";
@@ -44,15 +42,13 @@
   color: #000;
   margin-top: 10px;
 }
-.row-left :nth-child(4){
-    font-size: 14px;
-    padding: 10px 0;
-
+.row-left :nth-child(4) {
+  font-size: 14px;
+  padding: 10px 0;
 }
-.row-left :nth-child(5){
-    font-size: 14px;
-    padding: 10px 0;
-
+.row-left :nth-child(5) {
+  font-size: 14px;
+  padding: 10px 0;
 }
 
 .row-right {
@@ -61,51 +57,57 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 80px ;
-  
+  gap: 80px;
 }
 
-
-.commerceAi{
-    width: 100%;
-    height: auto;
-    margin-top: 500px;
-
+.commerceAi {
+  width: 100%;
+  height: auto;
+  margin-top: 500px;
 }
-.commerceAi h1{
+.commerceAi h1 {
   text-align: center;
   font-size: 40px;
   padding: 30px 0;
 }
-.commerceAi p{
+.commerceAi p {
   text-align: center;
   font-size: 18px;
   padding: 30px 0;
-
 }
-.commerceAi .flex{
+.commerceAi .flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 100px;
 }
-.commerceAi .item{
-  width:300px;
+.commerceAi .item {
+  width: 300px;
   text-align: center;
-
 }
-.commerceAi .item img{
+.commerceAi .item img {
   margin-top: 30px;
 }
-.commerceAi .item h2{
-  text-align: center ;
+.commerceAi .item h2 {
+  text-align: center;
   font-size: 19px;
   margin-top: 20px;
 }
-.commerceAi .item p{
+.commerceAi .item p {
   font-size: 15px;
 }
 
-@media only screen  and (max-width:600px){
-  
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .column .row-left {
+    width: 100%;
+  }
+  .column h1{
+    font-size: 32px;
+  }
 }
