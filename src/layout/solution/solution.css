@@ -108,7 +108,81 @@
     width: 100%;
   }
   .column h1 {
-    font-size: 28px;
-    font-family: sans-serif;
+    font-size: 25px;
   }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  .flex .btn{
+    padding: 8px  25px !important;
+    font-size: 14px;
+  }
+  .flex a {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .flex a::before{
+    width: 200px;
+    top: 125px;
+    left: -10px;
+  }
+  .flex a::after{
+    width: 200px;
+    top: 103px;
+    
+  }
+  .row-right{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+
+  }
+  .row-right .item{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .row-right h1{
+    font-size: 25px;
+    margin: 0  20px;
+  }
+
+  .commerceAi {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .commerceAi h1 {
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 0;
+  }
+  .commerceAi p {
+    text-align: center;
+    font-size: 14px;
+    padding: 30px 0;
+  }
+  .commerceAi .flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .commerceAi .item {
+    width: 100%;
+    text-align: center;
+  }
+  .commerceAi .item img {
+   text-align: center;
+   margin-right: 25px;
+  }
+
+  
 }

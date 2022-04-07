@@ -25,3 +25,22 @@
    font-size: 15px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .container .boxes .box{
+        width: 100%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .container .servic h1{
+        font-size: 30px;
+    }
+    .container .boxes .box h3{
+        font-size: 15px;
+    }
+    .container .boxes .box p{
+        font-size: 12px;
+    }
+}
+    

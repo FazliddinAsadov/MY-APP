@@ -1,5 +1,5 @@
 {
-  "homepage": "http://FazliddinAsadov.github.io/Qubit_project",
+  "homepage": "http://FazliddinAsadov.github.io/MY_APP ",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prideploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

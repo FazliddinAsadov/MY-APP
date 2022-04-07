@@ -22,3 +22,28 @@ margin: 50px ;
 .compaign .box .btn2{
     background-color: #fff;
 }
+
+@media only screen  and (max-width:600px){
+  .compaign {
+    margin-top: 50px;
+  }
+  .compaign h1 {
+    font-size: 25px;
+    padding-top: 50px;
+  }
+  .compaign p {
+    padding-top: 50px;
+    font-size: 14px;
+  }
+  .compaign .box {
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .compaign .box img {
+  display: none;
+  }
+  .compaign :nth-child(5) {
+    margin: 50px ;
+  }
+
+}

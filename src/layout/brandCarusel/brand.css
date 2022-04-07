@@ -21,3 +21,19 @@
 .container .carusel .item img {
   width: 250px;
 }
+
+
+@media only screen and (max-width:600px) {
+  .container .carusel {
+    width: 100%;
+  }
+  .container h1{
+    font-size: 30px;
+  }
+  .container .carusel .items {
+    width: 100%;
+    overflow: hidden;
+  
+  }
+}
+  

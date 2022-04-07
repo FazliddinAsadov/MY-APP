@@ -1,7 +1,5 @@
 import React from "react";
 import "./Headerstyle.css";
-
-import { FaFacebook } from "react-icons/fa";
 import { GrMenu } from "react-icons/gr";
 
 const Header = () => {
@@ -38,8 +36,8 @@ const Header = () => {
             <div className="login">
               <a href="">Book a demo</a>
               <a href="">Login</a>
-            </div>
             <GrMenu className="menu-iconc" />
+            </div>
           </div>
         </div>
       </div>
@@ -48,3 +46,4 @@ const Header = () => {
 };
 
 export default Header;
+

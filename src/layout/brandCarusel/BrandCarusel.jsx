@@ -11,8 +11,8 @@ import img3 from "../../Image/03.png";
 
 const responsive = {
   0: { items: 1 },
-  375: {item:1},
-  568: { items: 2 },
+  568: { items: 1 },
+  768: { items: 2 },
   1024: { items: 3 },
 };
 
